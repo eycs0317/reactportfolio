@@ -1,0 +1,30 @@
+.section {
+  display: flex;
+  margin: 20px 50px;
+  align-items: center;
+}
+
+.title {
+  font-size: 35px;
+  color: var(--main-color);
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+  padding: 20px;
+  border-left: var(--main-color) solid 3px
+}
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+section .content a:hover {
+  font-size: 110%;
+  color: #524747;
+  transition: 0.3s;
+}

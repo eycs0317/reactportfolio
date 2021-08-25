@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #ada6a6;
+}
+
+body {
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+/* Header section */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #14213d;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+header img {
+  width: 70px;
+  height: 70%;
+  border-radius: 50%;
+}
+
+header h1 {
+  color: var(--main-color);
+  margin: auto;
+  margin-left: 20px;
+}
+
+header nav {
+  display: flex;
+}
+.link {
+  font-size: 19px;
+  padding: 0 10px;
+  margin-right: 4px;
+  text-decoration: none;
+  color: var(--main-color);
+  border-bottom: 4px solid var(--main-color);
+}
+
+.link:hover {
+  font-size: 150%;
+  color: #524747;
+  transition: 0.3s;
+}

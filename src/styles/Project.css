@@ -1,0 +1,23 @@
+/* .work-items {
+  background-size: cover;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 90%;
+  border: 1px solid black;
+}
+
+.work-items:hover {
+  opacity: 100%;
+  border: 2px solid var(--main-color);
+  transition: 0.1s;
+} */
+
+/* .col {
+  width: 250%;
+  padding: 20px;
+} */
+
+.image {
+  width: 100%;
+}
