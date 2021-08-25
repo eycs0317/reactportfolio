@@ -51,7 +51,7 @@ function ContactMe() {
 
     <div className='container'>
       <h2>Contact Me</h2>
-      <h4>{inValidMessage}</h4>
+      <h4 className='invalidmessage'>{inValidMessage}</h4>
       <form className='form'>
 
         <label>Name:</label>

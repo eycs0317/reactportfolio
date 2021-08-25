@@ -1,25 +1,13 @@
-.section {
-  display: flex;
-  margin: 20px 50px;
-  align-items: center;
 
-}
-/* .footer-algn {
-  position: absolute;
-  bottom: 0px;
-} */
 
-.title {
-  font-size: 35px;
-  color: var(--main-color);
-  width: 25%;
-}
 
-.content {
-
-  width: 25%;
-  padding: 20px;
-
+.footer-algn {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
 }
 
 .contact-me {
