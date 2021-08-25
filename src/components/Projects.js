@@ -23,16 +23,6 @@ function Projects() {
       </div>
 
 
-
-    /* <section className="section">
-      <h2 className="title" id="work">Work</h2>
-      <div className="work-content">
-      {projectsinfo.map((info,index) => {
-        return <Project key={index} info={info}/>
-      })}
-
-      </div>
-    </section> */
   )
 }
 
