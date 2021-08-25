@@ -7,17 +7,23 @@
   border: 1px solid black;
 }
 
-.work-items:hover {
-  opacity: 100%;
-  border: 2px solid var(--main-color);
-  transition: 0.1s;
-} */
-
 /* .col {
   width: 250%;
   padding: 20px;
 } */
+:root {
+  --main-color: #ada6a6;
+}
+
+.card:hover {
+  opacity: 100%;
+  border: 2px solid var(--main-color);
+  transition: 0.1s;
+}
+
+
 
 .image {
   width: 100%;
 }
+

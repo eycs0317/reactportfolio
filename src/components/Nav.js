@@ -15,7 +15,7 @@ function Nav(props) {
         onClick={() => props.handlePageChange('Projects')}
         >Work</a>
       <a className="link" href="#contact-me">Contact Me</a>
-      <a className="link" href="./resume/EddieYeungResume.pages" target="_blank">Resume</a>
+      <a className="link" href="./EddieYeungResume.pages" target="_blank">Resume</a>
     </nav>
   );
 }
