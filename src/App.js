@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
 
 
 class App extends React.Component {
@@ -15,11 +16,12 @@ class App extends React.Component {
   };
 
   renderPage = () => {
-
     if (this.state.currentPage === "About") {
       return <About />;
+    } else if (this.state.currentPage === 'Contact') {
+      return <ContactMe />;
     } else {
-      return <Projects />;
+      return <Projects />
     }
   };
 

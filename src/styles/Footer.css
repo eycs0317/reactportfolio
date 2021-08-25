@@ -2,7 +2,12 @@
   display: flex;
   margin: 20px 50px;
   align-items: center;
+
 }
+/* .footer-algn {
+  position: absolute;
+  bottom: 0px;
+} */
 
 .title {
   font-size: 35px;
@@ -11,15 +16,17 @@
 }
 
 .content {
-  width: 75%;
+
+  width: 25%;
   padding: 20px;
-  border-left: var(--main-color) solid 3px
+
 }
 
 .contact-me {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
   font-size: 20px;
 }
 
@@ -27,4 +34,8 @@ section .content a:hover {
   font-size: 110%;
   color: #524747;
   transition: 0.3s;
+}
+
+.footerlink {
+  margin: 10px;
 }
